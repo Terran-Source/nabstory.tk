@@ -1,10 +1,10 @@
-# techtipbites-tk-website-static
+# nabstory-tk-website-static
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7792228c-7bf4-4823-b9da-5f974b5fa04b/deploy-status)](https://app.netlify.com/sites/techtipbites/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/76f2ff6a-ccf3-4031-a6ad-08ac9c4bb405/deploy-status)](https://app.netlify.com/sites/nabstory/deploys)
 
-~~placeholder~~ Static  blogging website for techtipbites.tk
+Static story-board website for www.nabstory.tk
 
-I was looking to setup a static website for *FREE* to write blogs. Let me know how you'll like/dislike it.
+I was looking to setup a static website for *FREE* to write stories. Let me know how you'll like/dislike it.
 
 ### <u>What:</u>
 
