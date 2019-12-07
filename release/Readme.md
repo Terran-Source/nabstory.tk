@@ -1,0 +1,1 @@
+# release pipelines for static website
