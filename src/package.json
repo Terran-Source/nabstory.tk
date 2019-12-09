@@ -1,10 +1,11 @@
 {
-  "name": "techtipbites.marganam",
+  "name": "nabstory.tk",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
-    "draft-build": "hexo generate --draft",
+    "setup": "node setup.js",
+    "build": "npm run setup & hexo generate",
+    "draft-build": "npm run setup & hexo generate --draft",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
@@ -22,6 +23,7 @@
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0"
+    "hexo-server": "^1.0.0",
+    "replace-in-file": "^4.2.0"
   }
 }
