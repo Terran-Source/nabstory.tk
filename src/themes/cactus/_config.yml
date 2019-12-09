@@ -26,10 +26,10 @@ nav:
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github: https://github.com/orgs/Terran-Source/teams/blog-gers
-  twitter: /
-  facebook: /
-  linkedin: /
+  github: https://github.com/Terran-Source/nabstory.tk
+  twitter: https://twitter.com/tamal_patra
+  #facebook: /
+  #linkedin: /
   mail: patra.tamal@gmail.com
 
 # Customize the overview with displaying a tagcloud on the index page.
