@@ -145,6 +145,6 @@ And I sent you on your way.
 
 ---
 
-This is by far the best short story, I've ever read. Don't know, if I should categorize as Philosophical, Fiction or Science-Fiction, or even I'm qualified to do so. This little piece of writing have inspired me to be a better human being, nonetheless.
+This is by far the best short story, I've ever read. Don't know, if I should categorize it as Philosophical, Fiction or Science-Fiction, or even I'm qualified to do so. This little piece of writing have inspired me to be a better human being, nonetheless.
 
 The original published online version can be found [here](http://galactanet.com/oneoff/theegg_mod.html), where I've blatantly copied from.
