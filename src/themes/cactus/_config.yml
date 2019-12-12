@@ -137,6 +137,8 @@ disqus:
 google_analytics:
   enabled: '{{GA_ENABLED}}'
   id: '{{GA_TRACKING_ID}}'
+  env: '{{GA_CONTEXT}}'
+  commit: '{{GA_GIT_COMMIT}}'
 
 # Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
 baidu_analytics:
