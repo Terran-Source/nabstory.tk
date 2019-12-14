@@ -1,6 +1,10 @@
 const dotenv = require('dotenv');
 
-dotenv.config();
+let envList = dotenv.config();
+
+if (envList.error) throw envList.error;
+
+// console.log(envList.parsed);
 
 module.exports = {
   gaEnabled: 'true' === (process.env.GA_ENABLED || false).toString(),
