@@ -1,0 +1,64 @@
+# Global settings applied to the whole site.  
+# 
+# “base” is the directory to change to before starting build. If you set base:
+#        that is where we will look for package.json/.nvmrc/etc, not repo root!
+# “command” is your build command.
+# “publish” is the directory to publish (relative to the root of your repo).
+
+[build]
+  base    = "src"
+  command = "npm run draft-build"
+  publish = "www"
+  [build.environment]
+    YARN_VERSION = "1.21.1"
+    BRANCH_DESC = "I'm new in this World"
+    GA_ENABLED = 'false'
+
+# Production context: All deploys from the main
+# repository branch will inherit these settings.
+[context.production]
+  command = "npm run build"
+  [context.production.environment]
+    ACCESS_TOKEN = "super secret"
+    NODE_ENV = "production"
+    BRANCH_DESC = "Going Live for the world"
+    GA_ENABLED = 'true'
+
+# Deploy Preview context: All deploys generated from a pull/merge request
+# will inherit these settings.
+[context.deploy-preview]
+  [context.deploy-preview.environment]
+    ACCESS_TOKEN = "not so secret"
+    NODE_ENV = "development"
+    BRANCH_DESC = "Pull-Request checks. Includes drafts"
+
+# Branch deploy context: All deploys that are not from a pull/merge request
+# or from the production branch will inherit these settings.
+[context.branch-deploy]
+#   command = "make staging"
+  [context.branch-deploy.environment]
+    ACCESS_TOKEN = "not so secret"
+    NODE_ENV = "development"
+
+# Specific branch context: Deploys from this branch
+# will take these settings and override their
+# current ones.
+# [context.feature]
+#   command = "make feature"
+
+# [context."features/branch"]
+#   command = "gulp"
+
+# develop branch context: All deploys generated from develop branch
+# will inherit these settings.
+[context.develop]
+  [context.develop.environment]
+    BRANCH_DESC = "Test site with developing changes"
+
+# preview branch context: All deploys generated from preview branch
+# will inherit these settings.
+[context.preview]
+  command = "npm run build"
+  [context.preview.environment]
+    BRANCH_DESC = "Preview Site with new changes before going live"
+    GA_ENABLED = 'true'
