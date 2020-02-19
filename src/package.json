@@ -12,10 +12,10 @@
     "draft-server": "hexo server --draft"
   },
   "hexo": {
-    "version": "4.0.0"
+    "version": "4.2.0"
   },
   "dependencies": {
-    "hexo": "^4.0.0",
+    "hexo": "^4.2.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
@@ -27,6 +27,6 @@
   "devDependencies": {
     "dotenv": "^8.2.0",
     "hexo-server": "^1.0.0",
-    "replace-in-file": "^4.2.0"
+    "replace-in-file": "^5.0.2"
   }
 }
