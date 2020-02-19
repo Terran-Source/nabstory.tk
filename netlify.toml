@@ -10,7 +10,7 @@
   command = "npm run draft-build"
   publish = "www"
   [build.environment]
-    YARN_VERSION = "1.21.1"
+    YARN_VERSION = "1.22.0"
     BRANCH_DESC = "I'm new in this World"
     GA_ENABLED = 'false'
 
