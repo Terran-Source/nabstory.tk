@@ -10,7 +10,7 @@ tags:
   - Two Better Halves
 ---
 
-It all started on a fine morning (well, that's a relative perspective) when the two better halves turned a seemingly istupid conversation towards a really knowledgeable flow of emotional argumentative discussion (I guess, all my married friends can relate to the **reality**).
+It all started on one fine morning (well, that's a relative perspective) when the two better halves turned a seemingly istupid conversation towards a really knowledgeable flow of emotional argumentative discussion (I guess, all my married friends can relate to the **reality**).
 
 After sometime, there surface a pictorial representation of "<u>out of syllabus</u>".
 
