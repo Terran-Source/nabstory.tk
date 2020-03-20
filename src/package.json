@@ -25,7 +25,7 @@
     "hexo-renderer-stylus": "^1.1.0"
   },
   "devDependencies": {
-    "@terran-source/dotconfig": "^0.9.7",
+    "@terran-source/dotconfig": "^0.9.8",
     "hexo-server": "^1.0.0",
     "replace-in-file": "^5.0.2"
   }
