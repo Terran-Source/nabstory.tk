@@ -27,10 +27,10 @@ nav:
 # only 'mail' is an exception.
 social_links:
   github: https://github.com/Terran-Source/nabstory.tk
-  twitter: https://twitter.com/tamal_patra
+  twitter: https://twitter.com/TamalTerran
   #facebook: /
   #linkedin: /
-  mail: patra.tamal@gmail.com
+  mail: terran.source@gmail.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
