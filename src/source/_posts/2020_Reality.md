@@ -22,4 +22,4 @@ Here it comes to the deterministic & nondeterministic probability. Now the fun f
 
 Why comparing between earth & a person, you may ask**???**
 
-Well, in **reality**, they both are made up of same basic elements.
+Well, in **reality**, they both are made up of same basic elements, and somehow, they ***ARE*** supposed to be.
