@@ -27,7 +27,6 @@
   },
   "devDependencies": {
     "dots-config": "^2.0.0",
-    "hexo-server": "^2.0.0",
     "replace-in-file": "^6.1.0"
   }
 }
