@@ -1,5 +1,6 @@
 const replace = require('replace-in-file');
-const { gaEnabled, gaTrackingId, gaContext, gaGitCommit } = require('./config');
+const { loadConfig } = require('dots-config');
+const appConfig = loadConfig('config.json');
 
 const replacement = {
   files: 'themes/cactus/_config.yml',
@@ -7,9 +8,14 @@ const replacement = {
     "'{{GA_ENABLED}}'",
     "'{{GA_TRACKING_ID}}'",
     "'{{GA_CONTEXT}}'",
-    "'{{GA_GIT_COMMIT}}'"
+    "'{{GA_GIT_COMMIT}}'",
   ],
-  to: [gaEnabled.toString(), gaTrackingId, gaContext, gaGitCommit]
+  to: [
+    appConfig.gaEnabled.toString(),
+    appConfig.gaTrackingId,
+    appConfig.gaContext,
+    appConfig.gaGitCommit,
+  ],
 };
 
 console.log(replace.sync(replacement));
