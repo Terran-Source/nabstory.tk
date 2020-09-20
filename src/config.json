@@ -1,5 +1,5 @@
 {
-  "gaEnabled": "${= (${GA_ENABLED} || false).toString() =}",
+  "gaEnabled": "${*= (${GA_ENABLED} || false).toString() =}",
   "gaTrackingId": "${= (${GA_TRACKING_ID} || 'XXXX').toString() =}",
   "gaContext": "${= (${CONTEXT} || 'XXXX').toString() =}",
   "gaGitCommit": "${= (${COMMIT_REF} || 'XXXX').toString() =}"
