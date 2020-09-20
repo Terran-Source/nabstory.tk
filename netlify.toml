@@ -19,7 +19,6 @@
 [context.production]
   command = "npm run build"
   [context.production.environment]
-    ACCESS_TOKEN = "super secret"
     NODE_ENV = "production"
     BRANCH_DESC = "Going Live for the world"
     GA_ENABLED = 'true'
@@ -28,7 +27,6 @@
 # will inherit these settings.
 [context.deploy-preview]
   [context.deploy-preview.environment]
-    ACCESS_TOKEN = "not so secret"
     NODE_ENV = "development"
     BRANCH_DESC = "Pull-Request checks. Includes drafts"
 
