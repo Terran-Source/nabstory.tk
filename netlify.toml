@@ -10,10 +10,10 @@
   command = "npm run draft-build"
   publish = "www"
   [build.environment]
-    NETLIFY_USE_YARN = true
+    NETLIFY_USE_YARN = "true"
     YARN_VERSION = "1.22.5"
     BRANCH_DESC = "I'm new in this World"
-    GA_ENABLED = 'false'
+    GA_ENABLED = "false"
 
 # Production context: All deploys from the main
 # repository branch will inherit these settings.
@@ -22,7 +22,7 @@
   [context.production.environment]
     NODE_ENV = "production"
     BRANCH_DESC = "Going Live for the world"
-    GA_ENABLED = 'true'
+    GA_ENABLED = "true"
 
 # Deploy Preview context: All deploys generated from a pull/merge request
 # will inherit these settings.
@@ -60,4 +60,4 @@
   command = "npm run build"
   [context.preview.environment]
     BRANCH_DESC = "Preview Site with new changes before going live"
-    GA_ENABLED = 'true'
+    GA_ENABLED = "true"
